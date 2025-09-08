@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="C:/Kishore/Web Automation/Sauce-Demo/SauceDemoAutomationPOM/src/test/java/TestCases(failed)">
+    <classes>
+      <class name="TestCases.TestHomePage">
+        <methods>
+          <include name="TestPageTitle"/>
+          <include name="TestPageUrl"/>
+          <include name="ddScreenShotAfterTest"/>
+        </methods>
+      </class> <!-- TestCases.TestHomePage -->
+      <class name="TestCases.TestLogOutPage">
+        <methods>
+          <include name="ddScreenShotAfterTest"/>
+          <include name="LogOutAndVerify"/>
+        </methods>
+      </class> <!-- TestCases.TestLogOutPage -->
+      <class name="TestCases.TestLoginPage">
+        <methods>
+          <include name="LoginWithInValidCredentials"/>
+          <include name="LoginWithValidCredentials"/>
+          <include name="ddScreenShotAfterTest"/>
+        </methods>
+      </class> <!-- TestCases.TestLoginPage -->
+      <class name="TestCases.TestAddToCartPage">
+        <methods>
+          <include name="TestProductVisibleOnCartBadge"/>
+          <include name="removeAndAddProductFromCartBadge"/>
+          <include name="AddScreenShotAfterTest"/>
+        </methods>
+      </class> <!-- TestCases.TestAddToCartPage -->
+      <class name="TestCases.TestSortingProductPage">
+        <methods>
+          <include name="verifyProductDisplayedInCorrectOrderNameZToA"/>
+          <include name="ddScreenShotAfterTest"/>
+          <include name="verifyProductDisplayedInCorrectOrderNameAToZ"/>
+          <include name="verifyProductDisplayedInCorrectOrderPriceHighToLow"/>
+          <include name="verifyProductDisplayedInCorrectOrderPriceLowToHigh"/>
+        </methods>
+      </class> <!-- TestCases.TestSortingProductPage -->
+      <class name="TestCases.TestCartBadgeCountValidationPage">
+        <methods>
+          <include name="ddScreenShotAfterTest"/>
+          <include name="ValidateCartCountBadge"/>
+        </methods>
+      </class> <!-- TestCases.TestCartBadgeCountValidationPage -->
+      <class name="TestCases.TestCheckOutPage">
+        <methods>
+          <include name="FinishOrderAndVerifyConfirmMassage"/>
+          <include name="AutomateCheckOutAndVerify"/>
+          <include name="ddScreenShotAfterTest"/>
+        </methods>
+      </class> <!-- TestCases.TestCheckOutPage -->
+      <class name="TestCases.TestLockedOutUserPage">
+        <methods>
+          <include name="ddScreenShotAfterTest"/>
+          <include name="VerifyLockedOutUserInLogin"/>
+        </methods>
+      </class> <!-- TestCases.TestLockedOutUserPage -->
+    </classes>
+  </test> <!-- C:/Kishore/Web Automation/Sauce-Demo/SauceDemoAutomationPOM/src/test/java/TestCases(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
