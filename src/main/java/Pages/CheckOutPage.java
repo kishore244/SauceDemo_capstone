@@ -27,8 +27,8 @@ public class CheckOutPage extends BasePage{
 
     public void FillCheckOutAddress(String user, String pass){
         NavigateCheckOutPage(user, pass);
-        writeOnElement(first_name,"Nandini");
-        writeOnElement(last_name, "Kamireddy");
+        writeOnElement(first_name,"Kishore");
+        writeOnElement(last_name, "Uppala");
         writeOnElement(zip_code, "1234567");
         clickOnElement(continue_button);
     }
